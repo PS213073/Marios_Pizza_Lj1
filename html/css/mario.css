@@ -1,0 +1,54 @@
+*
+{
+    font-family:Arial, Helvetica;
+} 
+body
+{
+   align-items: center;
+    color: #444;
+    background-color: white;
+    max-width: 800px;
+    margin: auto;
+    padding-top: 40px;
+      
+}
+
+footer{
+    padding-top: 50px;
+    padding-bottom: 40px;
+    font-size: 13px;
+    height: 70px;
+}
+.alv{
+    position: relative;
+   left: 500px;
+}
+.fotos{
+    width: 150px;
+    
+}
+
+.notbold {
+    font-weight: normal;
+}
+
+h3{
+    color: red;
+}
+
+.imgblock{
+    float: right;
+    
+}
+
+.itext{
+    font-size: x-small;
+}
+
+.link{
+    opacity: 80%;
+}
+
+.footnote{
+    opacity: 70%;
+}

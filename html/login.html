@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/mario.css">
+    <link rel="stylesheet" type="text/css" href="css/menu.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <script src="js/project1.js"></script>
+    <meta name="Robots" content="All">
+    <meta name="author" content="">
+    <meta name="copyright" content="Mario Bressanone">
+    <meta name="description" content="Onze chefs bereiden tradionele pizza's met dunne bodem en 
+                                       klassieke pastagerechten. Ook bezorging aan huis.">
+    <meta name="keywords" content="pizza, pasta, cursus, workshop">
+    <meta charset="UTF-8">
+    <title>Mario's Pizza</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="pizzas.html">Pizza's</a>
+                </li>
+                <li>
+                    <a href="pastas.html">Pasta's</a>
+                </li>
+                <li>
+                    <a href="bestel.html">Bestellen</a>
+                <li>
+                    <a href="cursus.html">Cursus</a>
+                </li>
+                <li>
+                    <a href="overons.html">Over ons</a>
+                </li>
+                <li>
+                    <a class="active" href="login.html">Login</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <article>
+        <h1>
+            Inlogpagina om op de personeelspagina te komen
+        </h1>
+        <h2>
+            Vul je gebruikersnaam en wachtwoord in.
+        </h2>
+        <form id="login-form" action="personeelspaginapizza.html" method="POST">
+            <input type="text" placeholder="Gebruikersnaam" name="gebruikersnaam" id="username-field">
+            <input type="password" placeholder="Wachtwoord" name="wachtwoord" id="password-field">
+            <input type="submit" onclick="passwordcontrol()" value="Inloggen" id="login-form-submit">
+        </form>
+    </article>
+    <footer>
+        <b> © 2020-2025 Mario Bresanone</b>
+        <b><a class="alv" href="alv.html">Levervoorwaarden</a></b>
+
+
+
+    </footer>
+
+</body>
+
+</html>
